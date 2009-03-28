@@ -2,6 +2,7 @@
 
 ### (c) 2009 Bill Zeller
 #### [http://from.bz](http://from.bz)
+#### (A PHP version of this class can be found [here](http://github.com/billzeller/xmlegant-for-php/tree/master))
 
 XMLElegant is a Python class that allows easy generation of XML.
 
