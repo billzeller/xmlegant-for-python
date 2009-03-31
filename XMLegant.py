@@ -66,7 +66,7 @@ class XMLegant:
             child = self.__dict__['_parent'].__dict__['_child_names'][self.__dict__['_name']][key]
             XMLegant.setChild(child, val)
         else:
-            self.__dict__['_attrs'][key] = val
+            self.__dict__['_attrs'][key] = str(val)
 
     def __repr__(self):
         return '<XMLegant Name=%s, %d Children, text = %s at %#x>' \

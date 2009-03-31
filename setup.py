@@ -6,7 +6,7 @@ if sys.hexversion < 0x02050200:
 
 
 setup(name='XMLegant',
-      version='0.7',
+      version='0.8',
 	  description='A class allowing easy XML generation',
 	  #summary='A class allowing easy XML generation. XML can be generated using chaining methods or a succinct accessor syntax.',
 	  author='Bill Zeller',
